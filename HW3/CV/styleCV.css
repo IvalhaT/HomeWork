@@ -1,0 +1,15 @@
+.my-table {
+    border: 2px solid lightgray;
+    border-collapse: collapse;
+    margin: 0 auto 20px;
+    width: 50%;
+    font-family: "Courier New", Courier, monospace;
+    font-size:  14px;
+    font-weight: bold;
+}
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border: 1px solid lightgray;
+}
