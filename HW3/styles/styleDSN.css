@@ -1,0 +1,32 @@
+body {
+    background-color: blue;
+}
+h1 {
+    color: red;
+}
+a.home {
+    font-family: "Sacramento", cursive;
+    font-size: 26px;
+    color: darkorange;
+
+}
+a.profile {
+   font-family: "Sacramento", cursive;
+    font-size: 30px;
+    color: lightgreen;
+}
+a.friends {
+    font-family:"Sacramento", cursive;
+    font-size: 34px;
+    color: lightpink;
+}
+h2 {
+    color: yellow;
+}
+.inf {
+    background-color: aquamarine;
+}
+.warning {
+    background-color: lightpink;
+    color: firebrick;
+}
