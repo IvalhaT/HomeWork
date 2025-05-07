@@ -19,14 +19,26 @@ td > button {
 }
 .magenta {
    color: magenta;
+   width: 35px;
+   height: 25px;
 }
 .blue {
    color: blue;
+   width: 30px;
+   height: 25px;
 }
 .red {
    color: red;
+   width: 30px;
+   height: 25px;
 }
 .gray {
    color: gray;
+   width: 30px;
+   height: 25px;
+}
+.backspace {
+   width: 80px;
+   height: 25px;
 }
 
