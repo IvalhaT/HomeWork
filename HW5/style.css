@@ -1,0 +1,40 @@
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas:
+    "header header header"
+    "article nav ads"
+    "footer footer footer";
+    gap: 20px;
+}
+header {
+    grid-area:  header;
+}
+article{
+    grid-area:  article;
+}
+nav {
+    grid-area:  nav;
+}
+aside {
+    grid-area: ads;
+}
+footer {
+    grid-area:  footer;
+}
+
+.color {
+    background-color: yellow;
+}
+.narrow {
+    height: 200px;
+}
+.wide {
+    height:  1100px;
+}
+.pd {
+   padding: 40px;
+}
+div {
+    font-size: 32px;
+}
