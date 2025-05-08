@@ -13,32 +13,19 @@ body {
    padding: 5px;
 }
 td > button {
+   height: 25px;
+   width: 30px;
    padding: 4px 6px;
    font-size:  10px;
    box-shadow: 1px 1px 1px grey;
 }
-.magenta {
-   color: magenta;
-   width: 35px;
-   height: 25px;
-}
-.blue {
-   color: blue;
-   width: 30px;
-   height: 25px;
-}
-.red {
-   color: red;
-   width: 30px;
-   height: 25px;
-}
-.gray {
-   color: gray;
-   width: 30px;
-   height: 25px;
-}
+.magenta {color: magenta;}
+.blue    {color: blue;}
+.red     {color: red;}
+.gray    {color: gray;}
 .backspace {
    width: 80px;
-   height: 25px;
 }
-
+.medium-button {
+   width: 35px;
+}
