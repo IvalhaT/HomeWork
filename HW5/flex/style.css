@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    font-size:32px;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+}
+article {
+    flex: 2;
+}
+nav, aside {
+    flex: 1;
+}
+.narrow {
+    height: 250px;
+}
+.wide {
+    height: 1100px;
+}
+.pd {
+    padding: 20px;
+}
+.color {
+    background-color: yellow;
+}
