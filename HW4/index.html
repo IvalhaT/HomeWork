@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+    <table border="1" class="my-table">
+        <tr>
+            <td colspan="11"><strong>Калькулятор</strong></td>
+        </tr>
+        <tr>
+            <td>Правка</td>
+            <td>Вид</td>
+            <td>Справка</td>
+        </tr>
+        <tr>
+            <td colspan="11" style="text-align: right">
+                <input type="text" style="text-align: right" placeholder="0,"></td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <div class="radio1">
+                    <input type="radio" name="group1" value="Hex" id="Hex">
+                    <label for="Hex">Hex</label>
+                    <input type="radio" name="group1"  value="Dec" id="Dec" checked>
+                    <label for="Dec">Dec</label>
+                    <input type="radio" name="group1" value="Oct" id="Oct">
+                    <label for="Oct">Oct</label>
+                    <input type="radio" name="group1" value="Bin" id="Bin">
+                    <label for="Bin">Bin</label>
+                </div>
+            </td>
+            <td colspan="6">
+                <div class="radio2">
+                    <input type="radio" name="group2" value="Degrees" id="Degrees" checked>
+                    <label for="Degrees">Degrees</label>
+                    <input type="radio" name="group2" value="Radians" id="Radians">
+                    <label for="Radians">Radians</label>
+                    <input type="radio" name="group2" value="Gradients" id="Gradients">
+                    <label for="Gradients">Gradients</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="7">
+                <div class="checkbox">
+                    <input type="checkbox" name="group3" value="Inv" id="Inv">
+                    <label for="Inv">Inv</label>
+                    <input type="checkbox" name="group3" value="Hyp" id="Hyp">
+                    <label for="Hyp">Hyp</label>
+                </div>
+            </td>
+            <td colspan="2"><button class="backspace red" >Backspace</button></td>
+            <td><button class="red">CE</button></td>
+            <td><button class="red">C</button></td>
+        </tr>
+        <tr>
+            <td><button class="blue">Sta</button></td>
+            <td><button class="magenta medium-button">F-E</button></td>
+            <td><button class="magenta">(</button></td>
+            <td><button class="magenta">)</button></td>
+            <td><button class="red">MC</button></td>
+            <td><button class="blue">7</button></td>
+            <td><button class="blue">8</button></td>
+            <td><button class="blue">9</button></td>
+            <td><button class="red">/</button></td>
+            <td><button class="red">Mod</button></td>
+            <td><button class="red">And</button></td>
+        </tr>
+        <tr>
+            <td><button class="gray">Ave</button></td>
+            <td><button class="magenta medium-button">dms</button></td>
+            <td><button class="magenta">Exp</button></td>
+            <td><button class="magenta">In</button></td>
+            <td><button class="red">MR</button></td>
+            <td><button class="blue">4</button></td>
+            <td><button class="blue">5</button></td>
+            <td><button class="blue">6</button></td>
+            <td><button class="red">&times;</button></td>
+            <td><button class="red">Or</button></td>
+            <td><button class="red">Xor</button></td>
+        </tr>
+        <tr>
+            <td><button class="gray">Sum</button></td>
+            <td><button class="magenta medium-button">sin</button></td>
+            <td><button class="magenta">x^y</button></td>
+            <td><button class="magenta">log</button></td>
+            <td><button class="red">MS</button></td>
+            <td><button class="blue">1</button></td>
+            <td><button class="blue">2</button></td>
+            <td><button class="blue">3</button></td>
+            <td><button class="red">-</button></td>
+            <td><button class="red">Lsh</button></td>
+            <td><button class="red">Not</button></td>
+        </tr>
+        <tr>
+            <td><button class="gray">s</button></td>
+            <td><button class="magenta medium-button">cos</button></td>
+            <td><button class="magenta">x^3</button></td>
+            <td><button class="magenta">n!</button></td>
+            <td><button class="red">M+</button></td>
+            <td><button class="blue">0</button></td>
+            <td><button class="blue">+/-</button></td>
+            <td><button class="blue">,</button></td>
+            <td><button class="red">+</button></td>
+            <td><button class="red">=</button></td>
+            <td><button class="red">Int</button></td>
+        </tr>
+        <tr>
+            <td><button class="gray">Dat</button></td>
+            <td><button class="magenta medium-button">tan</button></td>
+            <td><button class="magenta">x^2</button></td>
+            <td><button class="magenta">1/x</button></td>
+            <td><button class="blue">pi</button></td>
+            <td><button class="gray">A</button></td>
+            <td><button class="gray">B</button></td>
+            <td><button class="gray">C</button></td>
+            <td><button class="gray">D</button></td>
+            <td><button class="gray">E</button></td>
+            <td><button class="gray">F</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
