@@ -1,0 +1,165 @@
+/** {*/
+/*    outline: 1px solid green;*/
+/*}*/
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+}
+
+.name {
+    padding-right: 15px;
+}
+
+.img img {
+    border-radius: 60%;
+    width: 30px;
+}
+
+.search input {
+    border-radius: 30px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 100px;
+    height: 100%;
+    font-size: 20px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 280px;
+    background-color: lightgray;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.avatar-friends {
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.button button {
+    background-color: aliceblue;
+    color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+
+.avatar img {
+    border-radius: 100%;
+    width: 220px;
+}
+
+.friends {
+    text-align: center;
+    font-size: 16px;
+}
+
+.friends table {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.img-friends {
+    border-radius: 100%;
+    width: 45px;
+}
+
+.left {
+    text-align: start;
+}
+
+.extra-space {
+    padding-top: 25px;
+}
+
+.profile-photos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-info {
+    margin: 10px;
+}
+
+.profile-info table {
+    border-collapse: collapse;
+}
+
+.profile-info td {
+    padding: 6px 10px;
+}
+
+.border-bottom {
+    border-bottom: solid lightgray 1px;
+}
+
+.my-photos {
+    margin: 10px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 15px;
+    padding: 10px;
+}
+
+.photo-pic {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.img-photos {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.gray {
+    color: gray;
+}
+
+.blue {
+    color: cornflowerblue;
+}
+
+span {
+    color: lightgray;
+}
+
+.end {
+    text-align: end;
+}
+
+.center {
+    text-align: center;
+}
+
+.td-center {
+    text-align: center;
+}
