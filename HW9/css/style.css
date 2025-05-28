@@ -1,0 +1,105 @@
+/** {*/
+/*    outline: 1px solid green;*/
+/*}*/
+
+
+body {
+    font-family:  "Playpen Sans", cursive;
+    background-color: mistyrose;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: lightgray;
+    font-size: large;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.navbar div {
+    margin: 5px;
+    text-align:  center;
+}
+a {
+    text-decoration:  none;
+    color: black;
+    font-weight: bold;
+}
+a.active {
+    color: indianred;
+   font-size: x-large;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .creature {
+        flex-direction:  column;
+        align-items: start;
+    }
+    .creature img {
+        align-self: center;
+        max-width: 100%;
+    }
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.page-title {
+    text-align: center;
+        font-size: xx-large;
+}
+
+.text {
+    max-width: 800px;
+    text-indent: 20px;
+}
+.main-img {
+   max-width:  100%;
+    height: auto;
+}
+
+.creatures {
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+    margin: 10px ;
+    padding: 20px;
+    max-width: 800px;
+}
+
+ p {
+     font-size: 20px;
+     text-align: justify;
+     margin:  10px;
+     padding: 10px;
+ }
+.creature {
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+}
+
+.creature img {
+    max-width: 150px;
+    object-fit: cover;
+}
+h4 {
+    margin: 10px;
+    font-size: x-large;
+}
