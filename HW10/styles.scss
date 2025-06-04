@@ -1,0 +1,47 @@
+$color-magenta: magenta;
+$color-blue: blue;
+$color-red: red;
+$color-gray: gray;
+$color-bg: lightgrey;
+$color-border: lightgray;
+
+.magenta { color: $color-magenta; }
+.blue    { color: $color-blue; }
+.red     { color: $color-red; }
+.gray    { color: $color-gray; }
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.my-table {
+  font-size: 12px;
+  background-color: $color-bg;
+  border: $color-border;
+  border-collapse: collapse;
+  margin: 20px auto;
+
+  td {
+    text-align: center;
+    padding: 5px;
+
+     button {
+      height: 25px;
+      width: 30px;
+      padding: 4px 6px;
+      font-size: 10px;
+      box-shadow: 1px 1px 1px grey;
+    }
+    .backspace {
+      width: 80px;
+    }
+    .medium-button {
+      width: 35px;
+    }
+  }
+}
+
+
+
+
+
