@@ -1,9 +1,9 @@
  // 1.Создайте переменные str1='Hello' и str2='world'. С помощью методов работы со строками вывести в консоль фразу 'Hello, world!'.
 
-const str1 = 'Hello'
-const str2 = 'world'
-const str = str1 +','+' '+ str2 +'!'
-console.log(str)
+// const str1 = 'Hello'
+// const str2 = 'world'
+// const str = str1.concat(', ',str2,'!')
+// console.log(str)
 
 
 
@@ -24,18 +24,18 @@ console.log(str)
 
 // 4.Создать строку длиной 10. Сделайте так (да-да, вручную) чтобы на выходе она была забором. пример: "Я УчУсЬ В It-aCaDeMy".
 
-// let str5 = 'этнография'
+// let str5 = 'ЭТНОГРАФИЯ'
 //
 // let char0 = str5[0].toUpperCase()
-// let char1 = str5[1]
+// let char1 = str5[1].toLowerCase()
 // let char2 = str5[2].toUpperCase()
-// let char3 = str5[3]
+// let char3 = str5[3].toLowerCase()
 // let char4 = str5[4].toUpperCase()
-// let char5 = str5[5]
+// let char5 = str5[5].toLowerCase()
 // let char6 = str5[6].toUpperCase()
-// let char7 = str5[7]
+// let char7 = str5[7].toLowerCase()
 // let char8 = str5[8].toUpperCase()
-// let char9 = str5[9]
+// let char9 = str5[9].toLowerCase()
 //
 // const str = char0 + char1 + char2 + char3 + char4 + char5 + char6 + char7 + char8 + char9
 //
@@ -85,36 +85,42 @@ console.log(str)
 //         'Thursday',
 //         'Friday',
 //         'Saturday']
+// } else {
+//     console.log('en or ru only')
 // }
 // console.log(days)
 
-//     б) то же самое, используя switch
+    // б) то же самое, используя switch
 
-// let lang = 'en'
-// let days
-//
-// switch (lang) {
-//     case 'ru':
-//         days = ['понедельник',
-//             'вторник',
-//             'среда',
-//             'четверг',
-//             'пятница',
-//             'суббота',
-//             'воскресение']
-//         break;
-//
-//     case 'en':
-//         days = ['Sunday',
-//             'Monday',
-//             'Tuesday',
-//             'Wednesday',
-//             'Thursday',
-//             'Friday',
-//             'Saturday'];
-//         break;
-// }
-// console.log(days)
+let lang = 'en'
+let days
+
+switch (lang) {
+    case 'ru':
+        days = ['понедельник',
+            'вторник',
+            'среда',
+            'четверг',
+            'пятница',
+            'суббота',
+            'воскресение']
+        break;
+
+    case 'en':
+        days = ['Sunday',
+            'Monday',
+            'Tuesday',
+            'Wednesday',
+            'Thursday',
+            'Friday',
+            'Saturday'];
+        break;
+
+    default: console.log('en or ru only')
+        break
+}
+
+console.log(days)
 
 
 
