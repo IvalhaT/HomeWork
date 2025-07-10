@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>начало игры</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1> Scissors-Paper-Rock</h1>
+<form id="startForm">
+  <div>
+    <label>Имя: <input type="text" id="playerName" required></label>
+  </div>
+  <div>
+    <label>Количество раундов:</label>
+    <select id="rounds">
+      <option value="3">3</option>
+      <option value="5">5</option>
+      <option value="9" selected>9</option>
+    </select>
+  </div>
+  <button type="submit">Играть</button>
+</form>
+
+<nav class="nav">
+  <a href="leaderboard.html"> Посмотреть таблицу результатов</a>
+</nav>
+
+<script src="script.js"></script>
+
+</body>
+</html>

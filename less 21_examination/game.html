@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scissors-Paper-Rock</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1>Let's play</h1>
+<div id="welcome"></div>
+
+<div class="scoreboard">
+  <p>Раунд: <span id="currentRound">0</span></p>
+  <p>Победы игрока: <span id="playerWins">0</span></p>
+  <p>Победы компьютера: <span id="computerWins">0</span></p>
+</div>
+
+  <button onclick="playerMove('Камень')"><img src="./img/rock.jpg" alt="rock" onclick="play('rock')"></button>
+  <button onclick="playerMove('Ножницы')"><img src="./img/scissors.jpg" alt="scissors"  onclick="play('scissors')"></button>
+  <button onclick="playerMove('Бумага')"><img src="./img/paper.jpg" alt="paper"  onclick="play('paper')"></div></button>
+</div>
+
+<div id="resultBox"></div>
+
+<div id="finalScreen" >
+  <h2 id="finalMessage"></h2>
+  <button onclick="restartGame()">Сыграть снова</button>
+  <a href="leaderboard.html">Таблица результатов</a>
+</div>
+
+<script src="./script.js"></script>
+
+
+
+
+</body>
+</html>
