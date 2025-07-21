@@ -36,7 +36,7 @@ function renderPosts(posts) {
         const card = document.createElement('div');
         card.className = 'col-md-6';
 
-        const imageUrl = `https://picsum.photos/seed/${post.id}/600/300`;
+        const imageUrl = `https://placehold.co/300x150?text=Post+${post.id}`;
 
         card.innerHTML = `
       <div class="card h-100 shadow-sm">
